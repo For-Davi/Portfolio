@@ -1,0 +1,46 @@
+@import '../../../config-scss/variables.scss';
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    height: 50px;
+    
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 70%;
+        margin-right: 50px;
+        box-sizing: border-box;
+
+
+        li{
+            list-style: none;
+            color: $light-color-blue;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 400;
+
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+    }
+
+    button{
+        width: 10%;
+        background-color: transparent;
+        outline: none;
+        border: none;
+
+        fa-icon{
+            padding: 10px 10px;
+            cursor: pointer;
+        }
+    }
+}

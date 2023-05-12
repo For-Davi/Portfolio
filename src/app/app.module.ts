@@ -9,6 +9,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { UserBlueWhiteComponent } from './pages/components/user-blue-white/user-blue-white.component';
 import { TitleSectionComponent } from './shared/title-section/title-section.component';
 import { SkillsComponent } from './pages/components/skills/skills.component';
+import { DashboardComponent } from './pages/components/dashboard/dashboard.component';
+import { ProjectsComponent } from './pages/components/projects/projects.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { SkillsComponent } from './pages/components/skills/skills.component';
     NavbarComponent,
     UserBlueWhiteComponent,
     TitleSectionComponent,
-    SkillsComponent
+    SkillsComponent,
+    DashboardComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

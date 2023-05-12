@@ -122,31 +122,42 @@
             background-color: $light-color-white;
 
             #square1{
-                width: 300px;
-                height: 300px;
+                width: 290px;
+                height: 290px;
                 background-color: $light-color-blue;
                 position: absolute;
+                top: 170px;
                 border-radius: 20px;
                 transform: rotate(35deg);
                
             }
             
             #square2{
-                width: 300px;
-                height: 300px;
+                width: 290px;
+                height: 290px;
                 background-color: $light-color-green;
                 position: absolute;
+                top: 170px;
                 border-radius: 20px;
                 transform: rotate(55deg);
                
             }
 
             #square3{
-                width: 300px;
-                height: 300px;
+                width: 290px;
+                height: 290px;
                 background-color: $light-color-white;
                 position: absolute;
+                top: 170px;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
                
+                img{
+                    width: 600px;
+                    
+                }
             }
 
             

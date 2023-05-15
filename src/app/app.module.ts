@@ -11,6 +11,9 @@ import { TitleSectionComponent } from './shared/title-section/title-section.comp
 import { SkillsComponent } from './pages/components/skills/skills.component';
 import { DashboardComponent } from './pages/components/dashboard/dashboard.component';
 import { ProjectsComponent } from './pages/components/projects/projects.component';
+import { HighlightsComponent } from './pages/components/highlights/highlights.component';
+import { MoreProjectsComponent } from './pages/components/more-projects/more-projects.component';
+import { FooterComponent } from './pages/components/footer/footer.component';
 
 
 @NgModule({
@@ -22,7 +25,10 @@ import { ProjectsComponent } from './pages/components/projects/projects.componen
     TitleSectionComponent,
     SkillsComponent,
     DashboardComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    HighlightsComponent,
+    MoreProjectsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

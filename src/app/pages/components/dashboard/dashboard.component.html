@@ -21,8 +21,9 @@
     </div>
 
     <div class="line3">
-        <p>Clique aqui e veja mais sobre minhas certificações</p>
+        <p (click)="changeModal()">Clique aqui e veja mais sobre minhas certificações</p>
     </div>
 
+    <app-certifications [getChange]="modalStatus" (setChange)="statusChange($event)"/>
 </div>
  

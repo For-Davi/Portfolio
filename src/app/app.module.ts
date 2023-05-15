@@ -14,6 +14,7 @@ import { ProjectsComponent } from './pages/components/projects/projects.componen
 import { HighlightsComponent } from './pages/components/highlights/highlights.component';
 import { MoreProjectsComponent } from './pages/components/more-projects/more-projects.component';
 import { FooterComponent } from './pages/components/footer/footer.component';
+import { CertificationsComponent } from './pages/components/certifications/certifications.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { FooterComponent } from './pages/components/footer/footer.component';
     ProjectsComponent,
     HighlightsComponent,
     MoreProjectsComponent,
-    FooterComponent
+    FooterComponent,
+    CertificationsComponent
   ],
   imports: [
     BrowserModule,

@@ -15,6 +15,7 @@ import { HighlightsComponent } from './pages/components/highlights/highlights.co
 import { MoreProjectsComponent } from './pages/components/more-projects/more-projects.component';
 import { FooterComponent } from './pages/components/footer/footer.component';
 import { CertificationsComponent } from './pages/components/certifications/certifications.component';
+import { ProjectAboutComponent } from './pages/components/project-about/project-about.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { CertificationsComponent } from './pages/components/certifications/certi
     HighlightsComponent,
     MoreProjectsComponent,
     FooterComponent,
-    CertificationsComponent
+    CertificationsComponent,
+    ProjectAboutComponent
   ],
   imports: [
     BrowserModule,

@@ -13,5 +13,5 @@
         <span>Em construção</span>
     </div>
 </div>  
-<app-project-about *ngIf="statusProject" [id]="idProject"/>
+<app-project-about *ngIf="statusProject" [id]="idProject" (close)="closeModal($event)"/>
 

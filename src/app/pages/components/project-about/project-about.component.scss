@@ -99,3 +99,27 @@
         }
     }
 }
+
+.closeBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $light-color-blue;
+    padding: 10px 0px;
+
+    button{
+        border: none;
+        background-color: red;
+        color: $light-color-white;
+        padding: 12px 20px;
+        border-radius: 5px;
+        transition: all 0.3s;
+        cursor: pointer;
+
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+
+
+}

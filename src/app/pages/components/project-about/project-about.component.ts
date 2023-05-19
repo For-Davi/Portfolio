@@ -1,4 +1,4 @@
-import { Component, Input,OnInit, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Input, OnInit, OnChanges, SimpleChanges, Output ,EventEmitter} from '@angular/core';
 import projects from '../../../database/projectsAbout'
 import { Details } from 'src/app/interfaces/details';
 
@@ -10,6 +10,7 @@ import { Details } from 'src/app/interfaces/details';
 export class ProjectAboutComponent implements OnInit, OnChanges{
   
   @Input() public id: string =''
+  @Output() public close = new EventEmitter<string>()
   
   detailsImage:Details ={
     id:'',
@@ -24,6 +25,7 @@ export class ProjectAboutComponent implements OnInit, OnChanges{
   
   ngOnInit(): void {
     this.listProject(this.id)
+    
   }
 
   ngOnChanges(changes: SimpleChanges){
@@ -32,6 +34,10 @@ export class ProjectAboutComponent implements OnInit, OnChanges{
 
       console.log(changes['id'].currentValue)
     }
+  }
+
+  closeModal():void{
+    this.close.emit('close')
   }
  
   listProject(id:string){

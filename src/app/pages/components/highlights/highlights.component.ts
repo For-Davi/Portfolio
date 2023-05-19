@@ -21,4 +21,10 @@ export class HighlightsComponent {
 
   }
 
+  closeModal(dados: string){
+    if(dados === 'close'){
+      this.statusProject = false
+    }
+  }
+
 }

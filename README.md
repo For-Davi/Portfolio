@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 # Portfolio
-Bem-vindo(a) ao meu repositório de portfólio! Sou um(a) profissional em constante crescimento, apaixonado por criar soluções inovadoras e funcionais. Explore meu código, acompanhe meu processo de desenvolvimento e conheça os resultados alcançados. Fique à vontade para clonar, contribuir e entrar em contato. 
+Bem-vindo(a) ao meu repositório de portfólio! Esse projeto foi desenvolvido em Angular & Sass.
+Este portfolio irá constar diversos projetos que irei realizar durante minha jornada como desenvolvedor. 
 =======
 # PortfolioCdavi
 

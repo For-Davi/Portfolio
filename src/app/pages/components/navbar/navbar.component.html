@@ -1,6 +1,26 @@
 
 <nav>
-    <ul>
+    <button class="theme">
+        <fa-icon [icon]="sunIcon"></fa-icon>
+    </button>
+    
+
+    <!-- navbar web -->
+    <ul class="list-web">
+        <li>Sobre</li>
+        <li>Habilidades</li>
+        <li>Certificações</li>
+        <li>Projetos</li>
+        <li>Contato</li>
+    </ul>
+    
+    <!-- navbar mobile -->
+    <button class="mobile-toggle" (click)="toogleList()">
+        <fa-icon [icon]="hamburgerIcon" *ngIf="!menuOpen"></fa-icon>
+        <fa-icon [icon]="closeIcon" *ngIf="menuOpen"></fa-icon>
+    </button>
+
+    <ul class="list-mobile" *ngIf="menuOpen">
         <li>Sobre</li>
         <li>Habilidades</li>
         <li>Certificações</li>
@@ -8,8 +28,7 @@
         <li>Contato</li>
     </ul>
 
-    <button>
-        <fa-icon [icon]="sunIcon"></fa-icon>
-    </button>
+    
+
 
 </nav> 

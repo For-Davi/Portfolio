@@ -1,0 +1,18 @@
+@import '../../config-scss/variables.scss';
+
+.title-section{
+    background-color: $light-color-white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 30px;
+
+    h2{
+        color: $light-color-blue;
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

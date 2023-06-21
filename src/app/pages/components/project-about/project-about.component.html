@@ -1,0 +1,23 @@
+<div id="container-about">
+        <div class="left">
+            <img [src]="detailsImage.imagePath" [alt]="detailsImage.title">
+    
+            <div id="options">
+                <span>Acessar projeto</span>
+                <span>Acessar repositório</span>
+            </div>
+        </div>
+        <div class="right">
+            <h3>{{detailsImage.title}}</h3>
+            <p>{{detailsImage.about}}</p>
+    
+            <div id="technology">
+                <div class="group-tech" *ngFor="let item of detailsImage.technologies">
+                    <img [src]="item.imagePath" [alt]="item.name">
+                </div>
+            </div>
+        </div>
+</div>
+<div class="closeBtn">
+    <button (click)="closeModal()">Fechar</button> 
+</div>

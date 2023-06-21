@@ -1,0 +1,64 @@
+@import '../../../config-scss/variables.scss';
+
+#group-projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 60px;
+
+    .title-projects {
+        position: relative;
+    
+        h3 {
+          position: relative;
+          display: inline-block;
+          margin-left: 50px;
+          padding-bottom: 10px;
+    
+          &:after {
+            content: "";
+            position: absolute;
+            bottom: 0px; 
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(to right, #102e4a, #23ce6b);
+          }
+        }
+      }
+
+    #repository-github{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .icon{
+        cursor: pointer;
+
+        a{
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 10px 0px;
+          transition: all 0.3s;
+
+          &:hover{
+            opacity: 0.7;
+          }
+
+          img{
+            width: 60%;
+          }
+        }
+
+      }
+
+      p{
+        color: $light-color-blue;
+        padding: 10px 0px;
+      }
+    }
+}

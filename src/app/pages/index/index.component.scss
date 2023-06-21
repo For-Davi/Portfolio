@@ -1,0 +1,32 @@
+@import '../../config-scss/variables.scss';
+
+main{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   box-sizing: border-box;
+}
+
+#skills{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   background-color: $light-color-white ;
+}
+
+#certifications{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   background-color: $light-color-white ;
+}
+
+#projects{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   background-color: $light-color-white ;
+}

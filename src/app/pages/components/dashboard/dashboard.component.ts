@@ -16,8 +16,6 @@ export class DashboardComponent {
   statusChange(valor: string): void{
     if(valor === 'close'){
       this.modalStatus = false
-    } else {
-      return
-    }
+    } 
   }
 }

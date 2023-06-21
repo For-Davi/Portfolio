@@ -4,32 +4,28 @@
     </div>
 
     <div class="pack-projects">
-        <div class="pack-projects-rank">
-            <img src="../../../../assets/projects/project-h1.png" alt="">
-            <span>Em construção</span>
+        <div class="pack-projects-rank" (click)="openProject($event)">
+            <img src="../../../../assets/projects/project-h1.png" alt=""  [id]="'h1'">
         </div>
-        <div class="pack-projects-rank">
-            <img src="../../../../assets/projects/project-h2.png" alt="">
-            <span>Em construção</span>
+        <div class="pack-projects-rank" (click)="openProject($event)">
+            <img src="../../../../assets/projects/project-h2.png" alt=""  [id]="'h2'">
         </div>
-        <div class="pack-projects-rank">
-            <img src="../../../../assets/projects/project-h3.png" alt="">
-            <span>Em construção</span>
+        <div class="pack-projects-rank" (click)="openProject($event)">
+            <img src="../../../../assets/projects/project-h3.png" alt=""  [id]="'h3'">
         </div>
     </div>  
 
-    <div class="pack-projects">
+    <div class="pack-projects" (click)="openProject($event)">
         <div class="pack-projects-rank">
-            <img src="../../../../assets/projects/project-h1.png" alt="">
-            <span>Em construção</span>
+            <img src="../../../../assets/projects/project-h1.png" alt="" [id]="'h1'">
         </div>
-        <div class="pack-projects-rank">
-            <img src="../../../../assets/projects/project-h2.png" alt="">
-            <span>Em construção</span>
+        <div class="pack-projects-rank" (click)="openProject($event)">
+            <img src="../../../../assets/projects/project-h2.png" alt="" [id]="'h2'">
         </div>
-        <div class="pack-projects-rank">
-            <img src="../../../../assets/projects/project-h3.png" alt="">
-            <span>Em construção</span>
-        </div>
+        <div class="pack-projects-rank" (click)="openProject($event)">
+            <img src="../../../../assets/projects/project-h3.png" alt="" [id]="'h3'">
+        </div> 
     </div>
+
+    <app-project-about *ngIf="statusProject" [id]="idProject" (close)="closeModal($event)"/>
 </div>

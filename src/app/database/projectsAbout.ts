@@ -12,7 +12,8 @@ const projects = [
       {
         "name": "CSS",
         "imagePath": "../../../../assets/brands/css3.svg"
-      },
+      }
+      ,
       {
         "name": "JavaScript",
         "imagePath": "../../../../assets/brands/javascript.svg"

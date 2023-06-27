@@ -4,9 +4,9 @@
     <!-- navbar web -->
     <ul class="list-web">
         <li>Sobre</li>
-        <li (click)="goSection('group-skills')">Habilidades</li>
-        <li (click)="goSection('group-dashboard')">Certificações</li>
-        <li (click)="goSection('group-projects')">Projetos</li>
+        <li (click)="goSection('skills')">Habilidades</li>
+        <li (click)="goSection('certifications')">Certificações</li>
+        <li (click)="goSection('projects')">Projetos</li>
         <li (click)="goSection('group-footer')">Contato</li> 
     </ul>
     
@@ -18,9 +18,9 @@
 
     <ul class="list-mobile" *ngIf="menuOpen">
         <li (click)="goSection('navbar')">Sobre</li>
-        <li (click)="goSection('group-skills')" >Habilidades</li>
-        <li (click)="goSection('group-dashboard')">Certificações</li>
-        <li (click)="goSection('group-projects')">Projetos</li>
+        <li (click)="goSection('skills')" >Habilidades</li>
+        <li (click)="goSection('certifications')">Certificações</li>
+        <li (click)="goSection('projects')">Projetos</li>
         <li (click)="goSection('group-footer')">Contato</li>
     </ul> 
 

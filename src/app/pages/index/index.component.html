@@ -2,7 +2,11 @@
     <header>
         <app-navbar/>
     </header>
-
+    
+        <a (click)="goHome()">
+            <fa-icon [icon]="arrowIcon" size="2x" [style.color]="'white'">
+            </fa-icon>
+        </a>
     <main id="about">
         <app-user-blue-white/>
     </main>

@@ -31,4 +31,16 @@ main{
    background-color: $light-color-white ;
 }
 
+fa-icon{
+   position: fixed;
+   top: 450px;
+   right: 10px;
+   z-index: 10;
+   background-color: $light-color-blue;
+   border-radius: 50%;
+   border: none;
+   cursor: pointer;
+   
+}
+
 

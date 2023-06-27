@@ -1,13 +1,13 @@
 
-<nav>
+<nav id="navbar">
 
     <!-- navbar web -->
     <ul class="list-web">
         <li>Sobre</li>
-        <li>Habilidades</li>
-        <li>Certificações</li>
-        <li>Projetos</li>
-        <li>Contato</li>
+        <li (click)="goSection('group-skills')">Habilidades</li>
+        <li (click)="goSection('group-dashboard')">Certificações</li>
+        <li (click)="goSection('group-projects')">Projetos</li>
+        <li (click)="goSection('group-footer')">Contato</li> 
     </ul>
     
     <!-- navbar mobile -->
@@ -17,11 +17,11 @@
     </button> 
 
     <ul class="list-mobile" *ngIf="menuOpen">
-        <li>Sobre</li>
-        <li>Habilidades</li>
-        <li>Certificações</li>
-        <li>Projetos</li>
-        <li>Contato</li>
+        <li (click)="goSection('navbar')">Sobre</li>
+        <li (click)="goSection('group-skills')" >Habilidades</li>
+        <li (click)="goSection('group-dashboard')">Certificações</li>
+        <li (click)="goSection('group-projects')">Projetos</li>
+        <li (click)="goSection('group-footer')">Contato</li>
     </ul> 
 
     

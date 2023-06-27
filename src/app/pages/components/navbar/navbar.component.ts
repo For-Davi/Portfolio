@@ -30,4 +30,16 @@ export class NavbarComponent {
     this.menuOpen = !this.menuOpen
   }
 
+  goSection(section: string):void{
+    
+      if(this.menuOpen){
+        this.menuOpen = !this.menuOpen
+        document.getElementById(section)?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "nearest"
+        })
+      }
+    }
+
 }

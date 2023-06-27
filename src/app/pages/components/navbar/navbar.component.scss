@@ -7,6 +7,7 @@ nav{
     justify-content: flex-end;
     height: 70px;
     background-color: $light-color-white;
+    background-color: $light-color-blue;
 
     .theme{
         width: 10%;
@@ -37,7 +38,7 @@ nav{
 
         li{
             list-style: none;
-            color: $light-color-blue;
+            color: $light-color-white;
             cursor: pointer;
             transition: all 0.3s;
             font-weight: 400;

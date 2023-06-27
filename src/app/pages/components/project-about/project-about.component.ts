@@ -17,7 +17,9 @@ export class ProjectAboutComponent implements OnInit, OnChanges{
     imagePath:'',
     title:'',
     about:'',
-    technologies:[]
+    technologies:[],
+    pathDeploy:'',
+    pathRepository:''
   }
   arrayFilter:any[]=[]
 
@@ -50,6 +52,8 @@ export class ProjectAboutComponent implements OnInit, OnChanges{
     this.detailsImage.title = this.arrayFilter[0].title
     this.detailsImage.about = this.arrayFilter[0].about
     this.detailsImage.technologies = this.arrayFilter[0].technologies
+    this.detailsImage.pathDeploy = this.arrayFilter[0].pathDeploy
+    this.detailsImage.pathRepository = this.arrayFilter[0].pathRepository
   }
 
 }

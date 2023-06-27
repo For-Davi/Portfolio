@@ -18,7 +18,9 @@ const projects = [
         "name": "Typescript",
         "imagePath": "../../../../assets/brands/typescript.svg"
       }
-    ]
+    ],
+    "pathDeploy":"https://pokedex-ebon-one.vercel.app/",
+    "pathRepository": "https://github.com/For-Davi/Pokedex",
   },
   {
     "id": "h2",
@@ -38,7 +40,9 @@ const projects = [
         "name": "JavaScript",
         "imagePath": "../../../../assets/brands/javascript.svg"
       }
-    ]
+    ],
+    "pathDeploy":"",
+    "pathRepository": "",
   },
   {
     "id": "h3",
@@ -59,6 +63,9 @@ const projects = [
         "imagePath": "../../../../assets/brands/javascript.svg"
       }
     ]
+    ,
+    "pathDeploy":"",
+    "pathRepository": "",
   }
 ];
 

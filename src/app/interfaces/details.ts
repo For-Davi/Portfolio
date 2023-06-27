@@ -4,6 +4,8 @@ export interface Details{
     title: string
     about: string
     technologies: Technology[]
+    pathDeploy: string
+    pathRepository: string
 }
 
 export interface Technology{

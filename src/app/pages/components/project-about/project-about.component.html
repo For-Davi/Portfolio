@@ -3,8 +3,8 @@
             <img [src]="detailsImage.imagePath" [alt]="detailsImage.title">
     
             <div id="options">
-                <span>Acessar projeto</span>
-                <span>Acessar repositório</span>
+                <a [href]="detailsImage.pathDeploy" target="_blank">Acessar projeto</a> 
+                <a [href]="detailsImage.pathRepository" target="_blank">Acessar repositório</a>
             </div>
         </div>
         <div class="right">

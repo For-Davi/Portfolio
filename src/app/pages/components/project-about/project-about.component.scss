@@ -45,13 +45,14 @@
                 gap: 20px;
             }
 
-            span{
+            a{
                 cursor: pointer;
                 padding: 5px 10px;
                 color: $light-color-blue;
                 background-color: $light-color-white;
                 border-radius: 5px;
                 transition: all 0.3s;
+                text-decoration: none;
 
                 @media screen and (max-width: 768px) {
                 width: 70%;

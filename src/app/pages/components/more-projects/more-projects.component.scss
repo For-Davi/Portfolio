@@ -37,6 +37,7 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 60px;
+    
 
     @media screen and (max-width: 768px) {
       flex-direction: column;
@@ -46,14 +47,15 @@
     }
 
     .pack-projects-rank{
-        width: 25%;
-        min-width: 250px;
+        width: 30%;
+        min-width: 400px;
         display: flex;
-        flex-direction: center;
+        justify-content: center;
         align-items:center ;
         opacity: 0.7;
         transition: all 0.3s;
         cursor: pointer;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
         @media screen and (max-width:768px) {
             margin: 20px 0px;
@@ -65,7 +67,6 @@
         }
         
         img{
-            border-radius: 3px;
             height: 300px;
         }
     }

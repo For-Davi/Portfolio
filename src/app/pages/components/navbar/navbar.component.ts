@@ -39,6 +39,12 @@ export class NavbarComponent {
           block: "start",
           inline: "nearest"
         })
+      } else {
+        document.getElementById(section)?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+          inline: "nearest"
+        })
       }
     }
 

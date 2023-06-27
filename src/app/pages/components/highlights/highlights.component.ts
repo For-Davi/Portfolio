@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-highlights',
@@ -10,13 +12,19 @@ export class HighlightsComponent {
   statusProject: boolean = false
   idProject: string = '' 
 
-  constructor(){}
+  constructor(private router: Router, private scroller:ViewportScroller){}
 
   openProject(event : MouseEvent):void{
     this.statusProject = true
     
     if(event.target instanceof HTMLElement){
       this.idProject = event.target.id
+      document.getElementById('projectAbout')?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest"
+      })
+      
     }
 
   }
@@ -24,6 +32,11 @@ export class HighlightsComponent {
   closeModal(dados: string){
     if(dados === 'close'){
       this.statusProject = false
+      document.getElementById('highlights')?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest"
+      })
     }
   }
 

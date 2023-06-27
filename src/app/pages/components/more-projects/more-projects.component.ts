@@ -17,6 +17,11 @@ export class MoreProjectsComponent {
     
     if(event.target instanceof HTMLElement){
       this.idProject = event.target.id
+      document.getElementById('projectAboutMore')?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest"
+      })
     }
 
   }
@@ -24,6 +29,11 @@ export class MoreProjectsComponent {
   closeModal(dados: string){
     if(dados === 'close'){
       this.statusProject = false
+      document.getElementById('more-projects')?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest"
+      })
     }
   }
 }

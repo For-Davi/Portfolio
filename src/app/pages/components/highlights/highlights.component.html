@@ -9,6 +9,8 @@
     <div class="highlights-rank" [id]="'h3'" (click)="openProject($event)">
         <img src="../../../../assets/projects/project-h3.png" alt="" [id]="'h3'">
     </div>
-</div>  
-<app-project-about *ngIf="statusProject" [id]="idProject" (close)="closeModal($event)"/> 
+</div>
+<div id="projectAbout">
+    <app-project-about *ngIf="statusProject" [id]="idProject" (close)="closeModal($event)"/> 
+</div>   
 

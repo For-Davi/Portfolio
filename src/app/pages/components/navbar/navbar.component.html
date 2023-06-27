@@ -1,9 +1,5 @@
 
 <nav>
-    <!-- <button class="theme">
-        <fa-icon [icon]="sunIcon" ></fa-icon>
-    </button> -->
-    
 
     <!-- navbar web -->
     <ul class="list-web">
@@ -16,8 +12,8 @@
     
     <!-- navbar mobile -->
     <button class="mobile-toggle" (click)="toogleList()">
-        <fa-icon [icon]="hamburgerIcon" *ngIf="!menuOpen"></fa-icon>
-        <fa-icon [icon]="closeIcon" *ngIf="menuOpen"></fa-icon>
+        <fa-icon [icon]="hamburgerIcon" size="3x" *ngIf="!menuOpen"  [style.color]="'white'"></fa-icon>
+        <fa-icon [icon]="closeIcon" size="3x" *ngIf="menuOpen" [style.color]="'white'"></fa-icon>
     </button>
 
     <ul class="list-mobile" *ngIf="menuOpen">

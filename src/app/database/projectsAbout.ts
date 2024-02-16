@@ -25,24 +25,24 @@ const projects = [
   {
     "id": "h2",
     "imagePath": "../../../../assets/projects/project-h2.png",
-    "title": "Lorem ipsum",
-    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "title": "CRUD com Laravel & Vue.js",
+    "about": "Projeto desenvolvido com Laravel no Back end e Vue.js no Front end, onde podemos fazer o cadastro de um usuário e logar com ele mesmo. Dentro da aplicação podemos cadastrar transportadoras, visualizar as que tem cadastradas, editar e excluir.",
     "technologies": [
       {
         "name": "HTML",
-        "imagePath": "../../../../assets/brands/html5.svg"
+        "imagePath": "../../../../assets/brands/laravel.svg"
       },
       {
         "name": "CSS",
-        "imagePath": "../../../../assets/brands/css3.svg"
+        "imagePath": "../../../../assets/brands/vue.svg"
       },
       {
         "name": "JavaScript",
-        "imagePath": "../../../../assets/brands/javascript.svg"
+        "imagePath": "../../../../assets/brands/mysql.svg"
       }
     ],
     "pathDeploy":"",
-    "pathRepository": "",
+    "pathRepository": "https://github.com/For-Davi/CRUD_Laravel_Vue/tree/master",
   },
   {
     "id": "h3",
